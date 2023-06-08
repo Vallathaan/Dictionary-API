@@ -1,0 +1,68 @@
+body {
+  
+  justify-content: center;
+  background-color: rgba(255, 4, 4, 0.156) !important;
+}
+#description {
+  text-align: center;
+  font-size: large;
+  color: rgb(255, 0, 0);
+  font-weight: bolder;
+  font-size: xx-large;
+
+}
+#container {
+  
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50rem;
+  height: 12rem;
+  display: grid;
+  box-shadow: 2px 2px 20px 2px #000000;
+  border-top-right-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+  border-bottom-left-radius: 25px !important;
+
+  grid-template-areas:
+    "input input submit"
+    "dis dis dis";
+}
+#input {
+  grid-area: input;
+  text-align: center;
+  background-color: rgb(250, 250, 250);
+  font-size: xx-large;
+  color: rgb(241, 6, 6);
+      border-radius: 25%;
+   border-top-right-radius: 25px !important;
+   border-top-left-radius: 25px !important;
+   border-bottom-right-radius: 25px !important;
+   border-bottom-left-radius: 25px !important;
+   
+
+}
+#submit {
+  grid-area: submit;
+  border-radius: 25%;
+  border-top-right-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+  border-bottom-left-radius: 25px !important;
+  background-color: rgb(193, 213, 255);
+  font-weight: bolder;
+  font-size: x-large;
+  color: rgb(0, 21, 255);
+}
+#display-box {
+
+  grid-area: dis;
+  padding: 1rem;
+  margin-top: 1rem;
+  color: blanchedalmond;
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: linear-gradient(#e03d3d, #9198e5) !important;
+ 
+}
